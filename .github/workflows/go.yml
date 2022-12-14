@@ -12,7 +12,7 @@ on:
 jobs:
 
   build:
-    runs-on: cirun-gpu-runner
+    runs-on: "cirun-gpu-runner--${{ github.run_id }}"
     steps:
     - uses: actions/checkout@v3
 
