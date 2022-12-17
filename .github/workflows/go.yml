@@ -24,6 +24,9 @@ jobs:
     - name: Set up GCC
       run: sudo apt update & sudo apt install -y gcc
 
+    - name: cuda-toolkit
+      uses: Jimver/cuda-toolkit@v0.2.8
+      
     - name: Build
       run: go build -v ./...
 
