@@ -6,6 +6,7 @@ runners:
     cloud: "gcp"
     # Cheapest GPU on GCP
     gpu: "nvidia-tesla-t4"
+    region: "us-west1-b" 
     # Cheapest VM on GCP, with GPU attachable
     instance_type: "n1-standard-1"
     # Ubuntu-20.4, can be seen from "gcloud compute images list"
