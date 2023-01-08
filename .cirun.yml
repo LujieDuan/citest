@@ -11,7 +11,7 @@ runners:
     # Ubuntu-20.4, can be seen from "gcloud compute images list"
     # machine_image: "ubuntu-2204-jammy"
     # machine_image: "common-dl-gpu-debian-10"
-    machine_image: "c0-deeplearning-common-cu113-v20221215-debian-10"
+    machine_image: "common-cpu-debian-10"
     preemptible: false
     # Add this label in the "runs-on" param in .github/workflows/<workflow-name>.yml
     # So that this runner is created for running the workflow
